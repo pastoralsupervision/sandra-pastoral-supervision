@@ -20,3 +20,15 @@
 .hero .eyebrow{color:#f5eedc;font-size:.8rem}.hero .lead{color:#faf8f2;max-width:540px}.hero-note{color:#f5eedc;font-size:.875rem}.hero em{color:#f0d397}
 @media(max-width:950px){.hero{min-height:660px;padding-block:65px}.hero-content{max-width:650px}.hero::before{background:linear-gradient(90deg,rgba(15,37,27,.94),rgba(18,40,29,.83) 45%,rgba(24,44,30,.25))}}
 @media(max-width:600px){.hero{min-height:740px;align-items:flex-start;padding:48px 6% 205px;background-position:62% center}.hero h1{font-size:clamp(2.6rem,10.6vw,3.8rem);margin-bottom:24px}.hero .eyebrow{font-size:.75rem;max-width:290px}.hero .lead{font-size:1rem;line-height:1.7}.hero-note{max-width:290px;line-height:1.6}.hero::before{background:linear-gradient(180deg,rgba(15,37,27,.93),rgba(18,40,29,.87) 48%,rgba(24,44,30,.54) 72%,rgba(26,43,28,.08))}}
+
+/* Gentle typography refinements within the established visual identity. */
+body{font-family:"Segoe UI",Arial,Helvetica,sans-serif;line-height:1.75}
+h1,h2{letter-spacing:-.025em;line-height:1.16;font-weight:400}
+h2{font-size:clamp(2.3rem,3.85vw,3.75rem)}h3{line-height:1.35;letter-spacing:-.012em}
+.eyebrow{font-weight:500;letter-spacing:.13em}.prose strong{font-weight:600}
+.hero h1{font-size:clamp(3.2rem,5.8vw,5.5rem)}
+/* The supplied panorama retains the grazing sheep across responsive crops. */
+.hero{background-position:center center;min-height:700px}
+.hero::before{background:linear-gradient(90deg,rgba(15,37,27,.94) 0%,rgba(18,40,29,.84) 34%,rgba(24,44,30,.38) 60%,rgba(26,43,28,.04) 85%)}
+@media(max-width:950px){.hero{background-position:52% center}.hero::before{background:linear-gradient(90deg,rgba(15,37,27,.93),rgba(18,40,29,.79) 46%,rgba(24,44,30,.13))}}
+@media(max-width:600px){.hero{min-height:790px;background-position:51% center}.hero h1{font-size:clamp(2.6rem,10.3vw,3.7rem)}.hero::before{background:linear-gradient(180deg,rgba(15,37,27,.94),rgba(18,40,29,.88) 48%,rgba(24,44,30,.38) 70%,rgba(26,43,28,.04))}}
