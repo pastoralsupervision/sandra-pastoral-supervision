@@ -1,4 +1,4 @@
-# Sandra Faccini — Pastoral Supervision
+# Sandra Faccini - Pastoral Supervision
 
 Responsive static website with no build step, trackers, remote fonts or runtime dependencies. Open index.html directly to review it.
 
