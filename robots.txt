@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sandrafaccinipastoralsupervision.co.uk/sitemap.xml
